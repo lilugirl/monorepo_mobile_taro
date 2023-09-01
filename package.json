@@ -1,0 +1,25 @@
+{
+  "name": "liuyi-ts-taro",
+  "version": "1.0.12",
+  "description": "",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "scripts": {
+    "push":"npm -ws run push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  },
+  "workspaces":[
+     "taro",
+     "ts"
+  ]
+}
