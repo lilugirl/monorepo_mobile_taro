@@ -1,4 +1,4 @@
 import React from 'react';
-export const Button = ({children,onClick})=>{
-    return <button onClick={onClick}>{children}</button>
+export const Button = ({children,label,primary,size,onClick})=>{
+    return <button onClick={onClick}>{label}</button>
 }
