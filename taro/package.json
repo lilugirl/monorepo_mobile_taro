@@ -1,14 +1,21 @@
 {
   "name": "liuyi-taro-ui",
-  "version": "1.0.6",
+  "version": "1.0.14",
   "description": "",
   "module": "dist/index.taro.js",
   "types": "dist/index.taro.d.ts",
   "scripts": {
-    "push":"tsc && npm publish",
+    "push": "tsc && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "@tarojs/components": "^3.5.7",
+    "@tarojs/taro": "3.5.7"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+  
+  }
 }
